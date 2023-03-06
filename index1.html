@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PortFolio</title>
+    <link
+        href='https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@100&family=Signika&display=swap'
+        rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div id="main" class="main">
+        <div class="starting">
+        <div class="logo">
+        <h3 >&lt  /></h3>
+        </div>
+        <nav class="nav ">
+            <ul>
+                <li><a href="#start">Home</a></li>
+                <li><a href="#about-middle">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#connect">Connect</a></li>
+                <li><a href="#hire">Contact</a></li>
+                <!-- <li><a href="#">Dark</a></li> -->
+            </ul>
+        </nav>
+        </div>
+        <section id="start">
+            <div class="name">
+                <div class="container blur">
+                    <p>I'm <span class="auto-type there">Jagadeesh</span> !</p>
+                </div>
+            </div>
+        </section>
+        <section id="about-middle">
+            <div class="about container container-box">
+
+                <div class="col-lg-6 about-matter">
+                    <h1 id="heading" class="heading ">&lt About &gt</h1>
+                    <p><span class="name">Hello, I'm Jagadeesh.</span><br>
+                        I'm a Competitive Programmer & Web Developer currently pursuing 3rd year B.Tech.<br><br>
+                    I have Good Knowledge on Web development Technologies like HTML5, CSS, JavaScript, Node.js, 
+                        Express.js, React.js and MongoDB. 
+                    
+                    <br><br>I've done some web development related projects using technologies mentioned above.
+                    <br><br>I have Good Knowledge on Problem Solving and I want to explore my skills and experience practically.</p>
+                    <h3 style="color:rgb(246, 164, 41)">Skills </h3>
+                    <ul >
+                        <li>HTML </li>
+                        <li>CSS </li>
+                        <li>Express.js</li>
+                        <li>Node.js</li>
+                        <li>React</li>
+                        <li>MongoDB</li>
+                        <li>C</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 img">
+                    <!-- <i class="fa-brands fa-apple fa-4x dev-img"></i></i> -->
+                    <img src="images/github-about.png" alt="">
+                </div>
+                
+            </div>
+            
+        </section>
+        <section id="projects">
+            <div class="projects-div container container-box ">
+                <h1 class="heading">&lt Projects &gt</h1>
+                <div class="group-1" data-aos="fade-down-right" data-aos-offset="300" data-aos-duration="500">
+                    <div class="project-head col-lg-5 col-sm-5">
+                        <h1>Calculator</h1>
+                        <a class="btn  btn-outline-warning links"
+                            href="https://jagadeeshreddiie.github.io/Basic-Claci/"> Calculator</a>
+                    </div>
+                    <div class="project-content col-lg-5 col-lg-7 ">
+                        <img class="project-img" src="images/calci-1.png" alt="Calculator">
+                        <p>
+                            This is a Basic Calculator of potential to do general Calculations .
+                            <br>
+                            This application was made by using HTML5 for structuring, CSS for styling and pure Vanilla JavaScript for evaluation of the calculation of user input.
+                        It's just simple and user friendly.
+                        </p>
+                    </div>
+                </div>
+                <div class="group-1 group-2 " data-aos="fade-down-left" data-aos-offset="300" data-aos-duration="500">
+                    <div class="project-content col-lg-6 col-sm-7">
+                        <img style="border-radius: 15px;width:200px;" class="project-img" src="images/blog.jpg"
+                            alt="BlogS-te">
+                        <p>
+                            Blog-Site is a web Application where users can create custom blogs on any topic of their choice.
+                            Implemented routing with the help of Express.js and MongoDB (NoSQL of type). Node.js was used as baclend runtime environment and with EJS(embedded Javascript) to create multiple blog entries using single template.
+                        </p>
+                    </div>
+                    <div class="project-head col-lg-4 col-sm-5">
+                        <h1>Blog-Site (mongoDB)</h1>
+                        <a class="btn btn-outline-warning links"
+                            href="https://github.com/Jagadeeshreddiie/BlogSite-Using-MOngoose">Blog-Site</a>
+                    </div>
+                </div>
+                <div class="group-1 group-3" data-aos="fade-right" data-aos-offset="300" data-aos-duration="500">
+                    <div class="project-head col-lg-5 col-sm-5">
+                        <h1>Secrets</h1>
+                        <a class="btn  btn-outline-warning links"
+                            href="https://github.com/Jagadeeshreddiie/secrets">Secrets (mongoDB & security)</a>
+                    </div>
+                    <div class="project-content col-lg-5 col-lg-7 ">
+                        <img class="project-img" src="images/key.png" alt="Key">
+                        <p>
+                            A web Application where Anonymous opinions are shared by users with providing every user Authenticated with Secured credentials using Hashing.<br>
+                            This is implemented with Express.js for routing and Node.js as Backend runtine environment and used MongoDB (NoSQL) for credentials and user data and EJS templates (embedded java script) for creating multiple instances using single template.
+                        </p>
+                    </div>
+                </div>
+                <div class="group-1 group-4" data-aos="fade-left" data-aos-offset="300" data-aos-duration="500" style="border-bottom:none;">
+                    <div class="project-content col-lg-6 col-sm-7">
+                        <img class="project-img" src="images/keeper.png" alt="Keeper">
+                        <p>
+                            Keeper App is designed to keep the Notes of user.
+                            This is based on React where it includes Hooks and Props to handle the data over components and resuability of the code.<br>
+                            It contains components for every repeated action and used multiple times using Hooks and Props.
+                        </p>
+                    </div>
+                    <div class="project-head col-lg-4 col-sm-5">
+                        <h1>Keeper App (React)</h1>
+                        <a class="btn btn-outline-warning links"
+                            href="https://github.com/Jagadeeshreddiie/Keeper-App/tree/main">Keeper App</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="connect">
+            <div class="connect container container-box">
+                <h1 class="heading">&lt Connect &gt </h1>
+                <div class="connect-div">
+
+                    <ul>
+                        <li><a data-aos-easing="ease-in-out" href="https://github.com/Jagadeeshreddiie">Git Hub <i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/jagadeesh-reddy-medam-260436228/">Linked In <i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="mailto:medamjagadeeswarareddy@gmail.com">Mail Me <i class="fa-solid fa-envelope"></i></a></li>
+                        <!-- <li><a href="#">Dark</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="hire">
+            <div class="hire-me container container-box">
+                
+                <div class="hire-content">
+                    <h1 class="heading">&lt Hire me ! &gt</h1>
+                    <p>You can Hire me through Mailing..</p><br />
+                    <a class="btn btn-lg btn-outline-warning" href="mailto:medamjagadeeswarareddy@gmail.com">--> Hire me</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
